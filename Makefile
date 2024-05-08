@@ -41,3 +41,5 @@ fclean: clean
 	@cd libft && make fclean
 
 re: fclean all
+
+.PHONY: clean re
